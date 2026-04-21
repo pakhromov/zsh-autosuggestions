@@ -1,5 +1,7 @@
 # zsh-autosuggestions
 
+This fork fixes a visual bug where the ghost suggestion text remains visible in the terminal after you run a command (for example, after typing 'ls', the 'lsblk' suggestion may appear and if you press enter (run 'ls' command) - the prompt line is not cleared and 'lsblk' remains displayed while the actual command that ran was 'ls')
+
 _[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._
 
 It suggests commands as you type based on history and completions.
